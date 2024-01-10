@@ -1,0 +1,11 @@
+// configuracion de babel
+{
+     // preset se utiliza para trabajar con js moderno 
+     "presets": [
+          "@babel/preset-env"
+     ],
+     // plugins que se utilizaran en js
+     "plugins": [
+          "@babel/plugin-transform-runtime"
+     ]
+}
